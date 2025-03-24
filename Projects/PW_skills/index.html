@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PW-Skills</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+   <!-- bootstrap icons -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+   <!-- navbar -->
+   <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#6cb0e0;">
+
+    <div class="container-fluid">
+
+      <a class="navbar-brand" href="#">
+        <img src="./Assets/PW_Skills.png" width="130px" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Client</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Services
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Web Development</a></li>
+              <li><a class="dropdown-item" href="#">Aap Development</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Machine Learning</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Contact Us</a>
+          </li>         
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-dark" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- slider (Carousel) -->
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img style="width: 100vw; max-height: 350px;" src="./Assets/robots.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img style="width:100vw; max-height: 350px;" src="./Assets/tech-university.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img style="width: 100vw; max-height: 350px;" src="./Assets/masterclass_landing.svg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img style="width: 100vw; max-height: 350px;" src="./Assets/images.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Some Content -->
+
+   <div class="container-fluid">
+    <!-- tagline -->
+     <div class="row">
+      <div class="col-12">
+        <h2 class="display-6 text-center mt-4 mb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Veritatis obcaecati dolore minus.</h2>
+      </div>
+     </div>
+
+     <!-- Features -->
+      <div class="row justify-content-evenly pt-4 pb-3">
+
+        <div class="col-3 text-center" style="background-color: #ccc; border-radius: 15px;">
+           <h1><i class="bi bi-code text-primary"></i></h1>
+           <h4>Built For Developers</h4>
+           <p>PW Skills is your partner in effective upskilling. with job-ready courses powered by high-technology,
+            accessible for everyone!</p>
+        </div>
+
+        <div class="col-3 text-center" style="background-color: #ccc; border-radius: 15px;">
+          <h1><i class="bi bi-easel-fill text-danger"></i></h1>
+          <h4>PW Skills Brings You MasterClass</h4>
+          <p>Stuck in your job? Learn and grow with our masterclasses led by top industry experts. Dive into tech with seasoned leaders!</p>
+        </div>
+
+        <div class="col-3 text-center" style="background-color: #ccc; border-radius: 15px;">
+          <h1><i class="bi bi-calendar3-range-fill text-success"></i></h1>
+          <h4>Foundations of Stock Trading</h4>
+          <p>PW Skills is your trusted source for learning the basics of the stock market. Our courses provide beginner-friendly insights into share trading, equipping you with the knowledge to start investing with confidence and potential earnings.</p>
+        </div>
+      </div>
+      <!-- line -->
+       <hr>
+
+       <!-- growth container -->
+        <div class="row justify-content-evenly pt-3 pb-5">
+          <div class="col-5">
+            <img src="./Assets/growth.jpg" class="img-fluid" alt="error" style="width: auto; min-height: 350px;">
+          </div>
+
+          <div class="col-5 bg-light">
+
+            <h4>SEO</h4>
+            <div class="progress" role="progressbar" aria-label="Default striped example" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar progress-bar-striped" style="width: 100%"></div>
+            </div>
+
+            <h4>Machine Learning</h4>
+            <div class="progress" role="progressbar" aria-label="Success striped example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar progress-bar-striped bg-success" style="width: 35%"></div>
+            </div>
+
+            <h4>App Development</h4>
+            <div class="progress" role="progressbar" aria-label="Info striped example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar progress-bar-striped bg-info" style="width: 50%"></div>
+            </div>
+
+            <h4>Web Development</h4>
+            <div class="progress" role="progressbar" aria-label="Warning striped example" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar progress-bar-striped bg-warning" style="width: 75%"></div>
+            </div>
+
+            <h4>Cloud Computing</h4>
+            <div class="progress" role="progressbar" aria-label="Danger striped example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar progress-bar-striped bg-danger" style="width: 90%"></div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Contact form -->
+         <div class="row justify-content-evenly pt-4  pb-3" style="background-color: #f1f1f1;">
+          <div class="col-5">
+            <form>
+              <h3 style="font-style:oblique; font-family: Georgia, 'Times New Roman', Times, serif;">Contact Form</h3>
+
+              <div class="mb-3">
+                <label for="exampleInputFullName" class="form-label">Full-Name</label>
+                <input type="text" class="form-control" id="exampleInputFullName">
+              </div>
+
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+              </div>
+
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+              </div>
+
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-success">Submit</button>
+            </form>
+
+          </div>
+          <div class="col-5">
+            <h3>Address</h3>
+            <p> Love Lucknow Spot
+              4.5(810) ·  <br> Tourist attraction
+              Crossing Road, 1090,<br> Lohia Path <br>
+              <i class="bi bi-telephone-fill"> 1090</i> </p>
+
+              <iframe src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d28477.771819478276!2d80.9670566!3d26.8488097!3m2!1i1024!2i768!4f13.1!2m1!1s1090%20lucknow%20address!5e0!3m2!1sen!2sin!4v1742705340569!5m2!1sen!2sin" style="width:100%"  height="400px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              
+          </div>
+         </div>
+
+         <!-- Frequently Asked QUESTIONS -->
+          <div class="row justify-content-evenly pt-5 pb-4"> 
+
+            <div class="col-10">
+
+              <h2 style="font-family: Georgia, 'Times New Roman', Times, serif; background-color: #ccc; text-align: center;">FAQ <hr></h2>
+
+              <div class="accordion" id="accordionPanelsStayOpenExample">
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                      Accordion Item #1
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                    <div class="accordion-body">
+                      <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                      Accordion Item #2
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                      Accordion Item #3
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          
+
+          <!--Footer section  -->
+          <div class="row justify-content-evenly bg-dark text-light pt-3 pb-3">
+
+            <div class="col-3 pt-2">
+              <h4>PW Skills</h4>
+              <p>PW Skills is the result of a continual effort to exponentially increase the employability of every Indian, irrespective of their socioeconomic status. With accessibility and affordability being the support structure of high-quality, industry-relevant courses, PW Skills aims to empower professionals and students alike to either jumpstart their careers or leverage existing skills with new, future-driven upgrades that will help them realise their full potential.</p>
+            </div>
+
+            <div class="col-3 pt-2">
+              <h4>Company</h4>
+              <p>PW Skills' mission is to permeate through every student/professional's outlook towards jobs and change their attitude and perspective from "How Can I Do It?" to "Of Course I Can Do It". We aim to do this by providing exceptional up skilling courses at affordable rates, while being tech-forward so anyone, anywhere can access and improve their ability to be successful in life. </p>
+            </div>
+
+            <div class="col-3 pt-2">
+              <h4>Products</h4>
+              <li>Software Development Courses</li>
+              <li>Data Science & Analytics</li>
+              <li>Programming Courses</li>
+              <li>Online BCA Degree</li>
+              <li>Digital Marketing With AI</li>
+              <li>Many More.....</li>
+            </div>
+
+          </div>
+      
+       <!-- container end -->
+   </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>

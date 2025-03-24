@@ -1,0 +1,6 @@
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #ffffff;
+    font-weight: 500;
+    font-style: initial;
+    font-size: large;
+}
